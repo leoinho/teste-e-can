@@ -15,12 +15,24 @@
     justify-content: space-between;
     align-items: center;
 }
+.menuMobi{
+    display: none;
+}
+
 .banner nav ul{
     display: flex;
     list-style-type: none;
     align-items: center;
 }
-.banner nav li{
+.visivel{
+    color: white;
+    float: left;
+    margin-right: 35px;
+    font-size: 18pt;
+    text-align: center;
+    display: flex;
+}
+.visivel2{
     color: white;
     float: left;
     margin-right: 35px;
@@ -69,6 +81,9 @@
     color: #FFFFFF;
     margin-top: 0;
 }
+.textoMobi{
+    display: none;
+}
 .saibaMais{
     background: rgb(247 ,25,99);
     width: 224px;
@@ -82,4 +97,65 @@
     color: #FFFFFF;
     font-size: 18pt;
     margin: 0;
+}
+@media (max-width:700px){
+    .banner{
+        background-image: url("../Img/BannerMobi.png");
+        height: 435px;
+        margin-bottom: 0;
+    }
+
+    
+    .menuMobi{
+        display: block;
+    }
+    .logoBanner{
+        height: 35px;
+    }
+    .visivel{
+        display: none;
+    }
+    .visivel2{
+        margin-right: 0;
+    }
+    .textoPrincipal h1{
+        font-size: 23pt;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+    }
+    .cesta{
+        width: 44px;
+        height: 44px;
+    }
+    .cesta img{
+        height: 20px;
+        margin-top: 10px;
+    }
+    .banner nav{
+        margin-top: 0;
+        width: 85%;
+        margin-bottom: 35px;
+    }
+    .banner nav ul{
+        padding: 0;
+    }
+    .textoDesktop{
+        display: none;
+    }
+    .textoMobi{
+        display: block;
+    }
+    .textoPrincipal p {
+        font-size: 10pt;
+    }
+    .saibaMais{
+        width: 145px;
+        height: 32px;
+        margin-top: 30px;
+    }
+    .saibaMais p{
+        font-weight: bold;
+    }
+    
 }

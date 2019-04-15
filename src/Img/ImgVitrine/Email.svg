@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="16" viewBox="0 0 87 16">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 18px;
+        fill: #fff;
+        font-family: FontAwesome;
+      }
+
+      .cls-2 {
+        font-family: "Times New Roman";
+      }
+
+      .cls-3 {
+        font-family: Lato;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="_Assinar" data-name="  Assinar" class="cls-1" x="-0.001" y="13.999"><tspan class="cls-2">  <tspan class="cls-3">Assinar</tspan></tspan></text>
+</svg>

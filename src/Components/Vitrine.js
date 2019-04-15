@@ -67,58 +67,60 @@ class Vitrine extends Component {
         <Slider {...settings}>
                 <div className="produto">
                   <img src={Casaco}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Casaco de Moleton Unisex</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div> 
                 <div className="produto">
                 <img src={Casaco}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Notebook Moleskine Preto</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
                 <div className="produto">
                 <img src={Caneca}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Caneca VTEX</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
                 <div className="produto">
                 <img src={Camiseta}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Camiseta algodão feminina</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
                 <div className="produto">
                 <img src={Casaco}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Casaco de Moleton Unisex</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
                 <div className="produto">
                 <img src={Casaco}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Notebook Moleskine Preto</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
                 <div className="produto">
                 <img src={Caneca}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Caneca VTEX</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
                 <div className="produto">
                 <img src={Camiseta}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Camiseta algodão feminina</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
                 <div className="produto">
                 <img src={Casaco}/>
-                  <p>Casaco de Moleton Unisex</p>
-                  <p>R$99,90</p>
+                  <p className="nomeProduto">Casaco de Moleton Unisex</p>
+                  <p className="precoNovo">R$99,90</p>
                 </div>
               </Slider>
         </div>
         
       </div>
         <div className="promocoes">
-          <div className="aoTopo">
-            <img src={Triangulo}/>
-            <p>Voltar<br/>ao topo</p>
-          </div>
+          <a href="#" className="aoTopo">
+            <div className="aoTopo">
+              <img src={Triangulo}/>
+              <p>Voltar<br/>ao topo</p>
+            </div>
+          </a>
           <h1>Receba novidades e promoções</h1>
           <p>Saiba em primeira mão de todas as novidades a respeito de funcionalidades Omnichannel lançadas pela VETX</p>
           <div className="areaEmail">

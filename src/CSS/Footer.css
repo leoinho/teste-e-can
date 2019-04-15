@@ -1,0 +1,90 @@
+.footer1{
+    width: 100%;
+    height: 250px;
+    background: rgb(20 ,32,50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer2{
+    width: 100%;
+    height: 105px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.informaFooter{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.informaFooter div{
+    
+    height: 100%;
+    
+
+}
+.tituloFooter{
+    font-size: 15pt;
+    color: rgb(247 ,25,99);
+}
+.institucional ul{
+    list-style-type:none;
+    padding: 0;
+}
+.institucional li{
+    font-size: 11pt;
+    color: #FFFFFF;
+}
+.seguro p{
+    margin-bottom: 0;
+}
+.seguro img{
+    margin-top: 20px;
+}
+.pagamento img{
+    margin-top: 20px;
+}
+.vetx{
+    width: 210px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.iconesFooter{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.iconesFooter div{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border:solid 1px;
+    border-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.informaFooter2{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logosFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+
+}
+.logosFooter p{
+    font-size: 10pt;
+    color: rgb(153 ,153,153);
+}

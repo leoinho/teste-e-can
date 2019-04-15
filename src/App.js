@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Banner from './Components/Banner';
 import Vitrine from './Components/Vitrine';
+import Footer from './Components/Footer';
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div >
         <Banner/>
         <Vitrine/>
+        <Footer/>
       </div>
     );
   }

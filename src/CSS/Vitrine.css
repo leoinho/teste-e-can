@@ -27,6 +27,25 @@
     height: 390px;
     background: #FFFFFF;
 }
+.produto img{
+    position: absolute;
+    margin-left: 54px;
+    bottom: 72px;
+
+}
+.nomeProduto{
+    position: absolute;
+    bottom: 27px;
+    margin-left: 87px;
+    font-size: 15pt;
+}
+.precoNovo{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 149px;
+    font-size: 15pt;
+    color: rgb(247 ,25,99);
+}
 .espaco{
     width: 40px;
 }

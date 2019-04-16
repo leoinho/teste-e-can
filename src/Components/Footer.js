@@ -41,18 +41,25 @@ class Footer extends Component {
                 <div className="vetx">
                     <p className="tituloFooter">#VTEXOMNI</p>
                     <div className="iconesFooter">
-                        <div><img src={Icone1}/></div>
-                        <div><img src={Icone2}/></div>
-                        <div><img src={Icone3}/></div>
-                        <div><img src={Icone4}/></div>
+                        <span><img src={Icone1}/></span>
+                        <span><img src={Icone2}/></span>
+                        <span><img src={Icone3}/></span>
+                        <span><img src={Icone4}/></span>
                     </div>
                 </div>
             </div>
         </div>
         <div className="footer2">
             <div className="informaFooter2">
-                <div>
+                <div className="desktop">
                     <img src={TextoFooter}/>
+                </div>
+                <div className="mobile">
+                    <p>
+                        VTEX•Copyright©2018 | 4440 Brigadeiro<br/>
+                        Faria Lima Ave, 15th Floor CEP:)04538-132.<br/>
+                        Itain Bibi, São Paulo, SP
+                    </p>
                 </div>
                 <div className="logosFooter">
                     <div>

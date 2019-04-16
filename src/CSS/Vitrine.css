@@ -226,16 +226,21 @@
         height: 20px
     }
     .areaEmail span {
-        width: 110px;
-        height: 37px;
-        margin: -26px;
+        width: 106px;
+        height: 31px;
+        margin: -7px;
+    }
+    .areaEmail span p{
+        padding: 0;
     }
     .areaEmail {
         width: 270px;
         height: 37px;
+        /* margin: 34px auto; */
         margin-bottom: 65px;
     }
     .promocoes input{
+        width: 170px;
         margin-left: 0;
         font-size: 13pt;
     }

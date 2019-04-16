@@ -60,7 +60,7 @@
     margin-top: 10px;
     justify-content: space-between;
 }
-.iconesFooter div{
+.iconesFooter span{
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -88,6 +88,9 @@
     font-size: 10pt;
     color: rgb(153 ,153,153);
 }
+.mobile{
+    display: none;
+}
 @media (max-width:700px){
     .footer1{
         height: 590px;
@@ -95,9 +98,40 @@
     .informaFooter{
     flex-direction: column;
     height: 100%;
-
+    align-items: baseline;
+    }
+    .logosFooter{
+        display: flex;
+        /* margin-left: 36px; */
+        height: 78px;
+    }
+    .tituloFooter{
+        width: 231px;
+    }
+    .logoSeguro{
+        height: 84px;
+        display: flex;
+    }
+    .vetx{
+        align-items: baseline;
+    }
+    .informaFooter2{
+        display: block;
     }
     .informaFooter div {
-        height: 0;
+        height: 42%;
+    }
+    .footer2{
+        height: 185px;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile p{
+        margin-top: 21px;
+        margin-bottom: 2px;
+        font-size: 10pt;
+        color: rgb(153 ,153,153);
+        letter-spacing: -1px;
     }
 }

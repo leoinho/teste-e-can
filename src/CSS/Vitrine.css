@@ -49,6 +49,7 @@
     color: rgb(247 ,25,99);
 }
 .botao{
+    cursor: pointer;
     position: absolute;
     z-index: -1;
     width: 194px;
@@ -220,6 +221,7 @@
     }
     .slick-prev, .slick-next {
         z-index: -1;
+        left: 0;
     }
     .fundoCarta {
         width: 20px;

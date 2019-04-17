@@ -61,6 +61,7 @@
     justify-content: space-between;
 }
 .iconesFooter span{
+    cursor: pointer;
     width: 40px;
     height: 40px;
     border-radius: 20px;
